@@ -1,0 +1,71 @@
+@import '../../pallette.scss';
+
+.br-12{
+  border-radius:$border-radius;
+}
+
+button{
+  border:none;
+  padding:0.5rem;
+  &.primary{
+    background:$primary;
+    color:$white;
+  }
+  &.secondary{
+     background:$secondary;
+    color:$white;
+  }
+  &.tertiary{
+     background:$tertiary;
+    color:$white;
+  }
+  &.danger{
+    background:$danger;
+    color:$white;
+  }
+  
+}
+
+
+
+//font sizes
+@for $i from 1 through 4 {
+	$base: 10;
+	$fontsize: $base * $i;
+	.font-#{$fontsize} { 
+		font-size: $fontsize + 0px;
+		}
+}
+
+//padding
+@for $i from 1 through 4 {
+	$base: 3;
+	$padding: $base * $i;
+	.p-#{$padding} { 
+		padding: $padding + 0px;
+		}
+	.pl-#{$padding} { 
+		padding-left: $padding + 0px;
+		}
+  	.pr-#{$padding} { 
+		padding-right: $padding + 0px;
+		}
+  
+   	.pt-#{$padding} { 
+		padding-top: $padding + 0px;
+		}
+   	.pb-#{$padding} { 
+		padding-bottom: $padding + 0px;
+		}
+  
+  
+}
+
+//border radius
+@for $i from 1 through 4 {
+	$base: 8;
+	$borderradius: $base * $i;
+	.br-#{$borderradius} { 
+		border-radius: $borderradius + 0px;
+		}
+}
