@@ -16,5 +16,3 @@ Whether that means simplifying the classes being send to the components ,or crea
 > - Make sure you read the issue/feature properly and start working on it.
 > - If you feel there is an issue/feature which is not there and you would want to create and work on do let me know .
 > - For PR's , please make sure you add the details when submitting so i would be clear on what you fixed with this pr.
-
->  *Everything* is going according to **plan**.
